@@ -5,11 +5,8 @@ for Iskall85's Vaulthunters */
 
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.recipe.Brewing;
-import mods.initialinventory.InvHandler;
 import mods.mekanism.recipe.Combining;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
-
-InvHandler.addStartingItem("one", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), 0);
 
 var dyes = {
   "white_dye": "white",
@@ -187,6 +184,10 @@ brewing.addRecipe(<item:minecraft:lingering_potion>.withTag({Potion: "minecraft:
 
 craftingTable.addShapeless("vault_hunters_guide", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), [
     <item:minecraft:book>, <item:minecraft:cobblestone>
+]);
+
+craftingTable.addShapeless("vault_lexicon", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:vault_lexicon" as string}), [
+    <item:minecraft:book>, <item:minecraft:wooden_sword>
 ]);
 
 craftingTable.addShaped("bundle", <item:minecraft:bundle>, [

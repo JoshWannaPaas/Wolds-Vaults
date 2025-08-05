@@ -168,10 +168,26 @@
           ],
           "conditions": []
         },
+         {
+          "type": "minecraft:item",
+          "name": "woldsvaults:suspension_focus",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": []
+        },
         {
           "type": "minecraft:item",
           "name": "the_vault:capstone_peaceful",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -232,9 +248,9 @@
           ],
           "conditions": []
         },
-        {
+         {
           "type": "minecraft:item",
-          "name": "the_vault:jewel",
+          "name": "woldsvaults:recipe_blueprint",
           "weight": 2,
           "functions": [
             {
@@ -247,7 +263,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{\"the_vault:gear_unique_pool\":\"woldsvaults:shattering_jewel\",\"the_vault:gear_roll_type\":\"Unique\"}"
+              "tag": "{\"recipe\":\"woldsvaults:warrior_trinket_pouch\"}"
             }
           ],
           "conditions": []

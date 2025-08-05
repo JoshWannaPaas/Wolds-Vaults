@@ -258,7 +258,7 @@
       },
       "the_vault:iridescent": {
         "properties": {
-          "chance": 0.25
+          "chance": 1.0
         },
         "display": {
           "name": "Iridescent",
@@ -2128,6 +2128,21 @@
           "icon": "the_vault:gui/modifiers/hex_poison"
         }
       },
+      "the_vault:toxic": {
+        "properties": {
+          "effect": "minecraft:poison",
+          "effectAmplifier": 3,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": 0.075
+        },
+        "display": {
+          "name": "Toxic",
+          "color": "#84BF17",
+          "description": "+7.5% increased chance mobs Poison greatly on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs Poison on hit",
+          "icon": "the_vault:gui/modifiers/hex_poison"
+        }
+      },
       "the_vault:stunning": {
         "properties": {
           "effect": "alexsmobs:fear",
@@ -2205,17 +2220,17 @@
       }
     },
     "the_vault:modifier_type/mob_frenzy": {
-      "the_vault:frenzy": {
+  "the_vault:frenzy": {
         "properties": {
           "damage": 3.0,
           "movementSpeed": 0.1,
-          "maxHealth": 0.25,
+          "maxHealth": 2.0,
           "doHealthReduction": true
         },
         "display": {
           "name": "Frenzy",
           "color": "#FC7C5C",
-          "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 25%",
+          "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1",
           "icon": "the_vault:gui/modifiers/frenzy"
         }
       },
@@ -2223,13 +2238,13 @@
         "properties": {
           "damage": 0.0,
           "movementSpeed": 0.0,
-          "maxHealth": 0.1,
+          "maxHealth": 2.0,
           "doHealthReduction": true
         },
         "display": {
           "name": "Overpower",
           "color": "#FC7C5C",
-          "description": "Mobs spawn with 10% health!",
+          "description": "Mobs spawn with 1 heart!",
           "icon": "the_vault:gui/modifiers/overpower"
         }
       }
@@ -3441,6 +3456,19 @@
           "icon": "the_vault:gui/modifiers/vulnerable"
         }
       },
+       "the_vault:corroded_veins": {
+        "properties": {
+          "stat": "copiously",
+          "addend": -1.0
+        },
+        "display": {
+          "name": "Corroded Veins",
+          "color": "#F74780",
+          "description": "-100% Copiously",
+          "descriptionFormatted": "-%d%% Copiously",
+          "icon": "the_vault:gui/modifiers/rich"
+        }
+      },
       "the_vault:copiously": {
         "properties": {
           "stat": "copiously",
@@ -3946,6 +3974,18 @@
           "description": "+100% Vault Experience",
           "descriptionFormatted": "+%d%% Vault Experience",
           "icon": "the_vault:gui/modifiers/experienced"
+        }
+      },
+      "the_vault:ignore_modifier_extended": {
+        "properties": {
+          "addend": -0.5
+        },
+        "display": {
+          "name": "Wendarr's Challenge",
+          "color": "#d89e01",
+          "description": "Extended will not work in this vault",
+          "descriptionFormatted": "Extended will not work in this vault",
+          "icon": "the_vault:gui/modifiers/god_token_wendarr"
         }
       }
     },
@@ -4871,6 +4911,22 @@
           "icon": "the_vault:gui/modifiers/door_hunter"
         }
       },
+      "the_vault:objective_hunter": {
+        "properties": {
+          "children": {
+            "the_vault:scavenger_altar": 1,
+            "the_vault:lodestone": 1,
+            "the_vault:monolith": 1,
+            "the_vault:grid_gateway": 1
+          }
+        },
+        "display": {
+          "name": "Objective Hunter",
+          "color": "#bbf333",
+          "description": "Reveals all objective blocks inside the vault!",
+          "icon": "the_vault:gui/modifiers/door_hunter"
+        }
+      },
       "the_vault:kill_nuke": {
         "properties": {
           "children": {
@@ -5124,13 +5180,16 @@
           "children": {
             "the_vault:freezing": 2,
             "the_vault:poisoning": 2,
-            "the_vault:wither": 2
+            "the_vault:wither": 2,
+            "the_vault:bleeding_mobs": 2,
+            "the_vault:dark": 1,
+            "the_vault:stunning": 1
           }
         },
         "display": {
           "name": "Chemical Bath",
           "color": "#da6d5a",
-          "description": "+2 Freezing, Poisoning, and Withering Mobs",
+          "description": "+2 Freezing, Poisoning, Bleeding and Withering Mobs",
           "icon": "the_vault:gui/modifiers/armored_mobs"
         }
       },

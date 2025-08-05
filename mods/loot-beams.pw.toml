@@ -1,6 +1,6 @@
 name = "Loot Beams: Relooted!"
 filename = "lootbeams-1.18.1-release-july1722.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

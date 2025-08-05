@@ -105,7 +105,11 @@
           "actions": [
             {
               "type": "group",
-              "add_vindicator": 8
+              "add_vindicator": 6
+            },
+            {
+              "type": "group",
+              "add_pillager": 2
             }
           ],
           "waves": -1,

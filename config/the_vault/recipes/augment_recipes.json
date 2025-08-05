@@ -1240,11 +1240,11 @@
                 },
                 {
                     "AMOUNT": 1,
-                    "ITEM": "woldsvaults:god_offering",
-                    "NBT": "{god:\"WENDARR\"}"
+                    "ITEM": "the_vault:god_token",
+                    "NBT": "{type:\"wendarr\"}"
                 },
                 {
-                    "AMOUNT": 4,
+                    "AMOUNT": 2,
                     "ITEM": "the_vault:memory_shard",
                     "NBT": "{}"
                 }
@@ -1265,11 +1265,11 @@
                 },
                 {
                     "AMOUNT": 1,
-                    "ITEM": "woldsvaults:god_offering",
-                    "NBT": "{god:\"VELARA\"}"
+                    "ITEM": "the_vault:god_token",
+                    "NBT": "{type:\"velara\"}"
                 },
                 {
-                    "AMOUNT": 4,
+                    "AMOUNT": 2,
                     "ITEM": "the_vault:memory_shard",
                     "NBT": "{}"
                 }
@@ -1290,8 +1290,13 @@
                 },
                 {
                     "AMOUNT": 1,
-                    "ITEM": "woldsvaults:god_offering",
-                    "NBT": "{god:\"IDONA\"}"
+                    "ITEM": "the_vault:god_token",
+                    "NBT": "{type:\"idona\"}"
+                },
+                {
+                    "AMOUNT": 2,
+                    "ITEM": "the_vault:extraordinary_black_opal",
+                    "NBT": "{}"
                 },
                 {
                     "AMOUNT": 4,
@@ -1315,11 +1320,11 @@
                 },
                 {
                     "AMOUNT": 1,
-                    "ITEM": "woldsvaults:god_offering",
-                    "NBT": "{god:\"TENOS\"}"
+                    "ITEM": "the_vault:god_token",
+                    "NBT": "{type:\"tenos\"}"
                 },
                 {
-                    "AMOUNT": 4,
+                    "AMOUNT": 2,
                     "ITEM": "the_vault:memory_shard",
                     "NBT": "{}"
                 }

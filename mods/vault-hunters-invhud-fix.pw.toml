@@ -1,6 +1,6 @@
 name = "Vault Hunters InvHud Fix"
 filename = "invhudfix-1.0.0.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

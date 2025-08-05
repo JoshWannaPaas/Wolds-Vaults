@@ -1,6 +1,6 @@
 name = "JEI Bookmark Sharing"
 filename = "bookmarksharing-jei10-1.2.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

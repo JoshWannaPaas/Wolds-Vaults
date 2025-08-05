@@ -17,8 +17,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "woldsvaults:omega_box",
-          "weight": 20
+          "name": "the_vault:etching",
+          "weight": 1
         }
       ],
       "rolls": {

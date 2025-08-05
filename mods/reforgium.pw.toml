@@ -1,6 +1,6 @@
 name = "Reforgium"
 filename = "reforgium-1.18.2-1.0.12a.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

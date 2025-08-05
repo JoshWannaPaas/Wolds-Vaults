@@ -1,6 +1,6 @@
 name = "MemoryLeakFix"
 filename = "memoryleakfix-forge-1.17+-1.0.0.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

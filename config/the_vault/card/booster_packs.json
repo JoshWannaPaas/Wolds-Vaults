@@ -1344,8 +1344,9 @@
           "value": [
             {
               "modifier": "@scaling",
-              "groups": [ "Foil" ],
-              "scaler": "@default",
+              "groups": [
+                "Foil"
+              ],
               "probability": 1.0
             }
           ],

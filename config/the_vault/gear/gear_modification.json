@@ -64,9 +64,7 @@
       "potentialUseMin": 16,
       "potentialUseMax": 24,
       "baseCostMultiplier": 8.0,
-      "negativePotentialCostMultiplier": 2.0,
-      "improvementExponent": 3.5,
-      "minImprovement": 0.5
+      "negativePotentialCostMultiplier": 2.0
     },
     "the_vault:lock_modifier": {
       "potentialUseMin": 16,

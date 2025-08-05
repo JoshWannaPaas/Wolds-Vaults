@@ -44,7 +44,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 4,
               "item": {
                 "id": "the_vault:driftwood",
                 "count": {
@@ -71,7 +71,7 @@
           "weight": 20,
           "pool": [
             {
-              "weight": 9,
+              "weight": 14,
               "item": {
                 "id": "the_vault:driftwood",
                 "count": {

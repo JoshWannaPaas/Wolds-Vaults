@@ -1,6 +1,6 @@
 name = "CIT Reforged"
 filename = "CIT Reforged 1.18.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

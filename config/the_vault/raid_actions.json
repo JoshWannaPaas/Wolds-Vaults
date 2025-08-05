@@ -806,18 +806,6 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
-    "annmari": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Ann-Mari",
-      "item": {
-        "id": "the_vault:chestplate",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:annmari\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
     "ivy": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -1343,7 +1331,10 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:vex",
-        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
+        "Tags": [
+          "vault_champion",
+          "no_drops"
+        ],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -1359,15 +1350,24 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:pillager",
-        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
+        "Tags": [
+          "vault_champion",
+          "no_drops"
+        ],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
           "#the_vault:modifier_type/entity_effect"
         ],
         "Modifiers": {
-          "minecraft:generic.movement_speed": { "Value": -1.0, "Operation": 2 },
-          "minecraft:generic.knockback_resistance": { "Value": 1.0, "Operation": 0 }
+          "minecraft:generic.movement_speed": {
+            "Value": -1.0,
+            "Operation": 2
+          },
+          "minecraft:generic.knockback_resistance": {
+            "Value": 1.0,
+            "Operation": 0
+          }
         }
       },
       "count": 1,
@@ -1379,46 +1379,9 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:ravager",
-        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
-        "modifierImmunity": [
-          "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute",
-          "#the_vault:modifier_type/entity_effect"
-        ]
-      },
-      "count": 1,
-      "spawner": "ground"
-    },
-    "add_illusioner_champion": {
-      "type": "mob_spawn",
-      "name": "Illusioner Champion",
-      "textColor": "0xFFff7575",
-      "entity": {
-        "id": "dungeons_mobs:illusioner",
         "Tags": [
           "vault_champion",
-          "no_drops",
-"ethereal_immune"
-        ],
-        "modifierImmunity": [
-          "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute",
-          "#the_vault:modifier_type/entity_effect"
-        ]
-      },
-      "count": 1,
-      "spawner": "ground"
-    },
-    "add_royal_guard_champion": {
-      "type": "mob_spawn",
-      "name": "Royal Guard Champion",
-      "textColor": "0xFFff7575",
-      "entity": {
-        "id": "dungeons_mobs:royal_guard",
-        "Tags": [
-          "vault_champion",
-          "no_drops",
-"ethereal_immune"
+          "no_drops"
         ],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
@@ -2007,8 +1970,7 @@
         "weight": 3
       },
       { "value": "iskallibur", "weight": 4 },
-      { "value": "ivy", "weight": 4 },
-        { "value": "annmari", "weight": 4 }
+      { "value": "ivy", "weight": 4 }
     ],
     "positive_lab": [
       {

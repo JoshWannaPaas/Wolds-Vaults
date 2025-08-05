@@ -6,8 +6,6 @@ onEvent("recipes", event => {
     event.remove({output: 'the_vault:coin_pouch'})
     event.remove({id: 'the_vault:echoing_ingot'})
     event.remove({id: 'the_vault:smelt_etching'})
-    event.remove({id: 'the_vault:crystal_seal_ordinator_run'})
-    event.remove({id: 'the_vault:crystal_seal_ordinator_build'})
 
     event.shaped(Item.of('the_vault:crystal_budding'),
         [
@@ -29,7 +27,7 @@ onEvent("recipes", event => {
         E: 'the_vault:vault_essence',
         D: 'the_vault:vault_diamond',
         A: 'the_vault:dreamstone',
-        B: 'the_vault:extraordinary_benitoite'
+        B: 'the_vault:perfect_benitoite'
     })
 
     event.shaped(Item.of('the_vault:mystery_egg'),
@@ -58,8 +56,6 @@ onEvent("recipes", event => {
     })
 
     event.shapeless('the_vault:capstone_vendoor_hunter', ['woldsvaults:capstone_vendoors'])
-
-    event.shapeless('9x the_vault:vault_diamond', ['the_vault:vault_diamond_block'])
 
     event.shapeless('the_vault:vault_palladium', ['9x the_vault:vault_platinum'])
     event.shapeless('the_vault:vault_iridium', ['9x the_vault:vault_palladium'])

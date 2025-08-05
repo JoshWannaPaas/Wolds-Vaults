@@ -13,19 +13,19 @@
           "modifierFailurePool": "the_vault:altar_curses",
           "lootPool": [
             {
-              "weight": 18,
+              "weight": 36,
               "item": {
                 "id": "the_vault:bitter_lemon"
               }
             },
             {
-              "weight": 10,
+              "weight": 18,
               "item": {
                 "id": "the_vault:mango"
               }
             },
             {
-              "weight": 6,
+              "weight": 12,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -37,7 +37,7 @@
               }
             },
             {
-              "weight": 6,
+              "weight": 1,
               "item": {
                 "id": "the_vault:god_token",
                 "nbt": {
@@ -46,7 +46,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 1,
               "item": {
                 "id": "woldsvaults:god_offering",
                 "nbt": {
@@ -73,19 +73,19 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
+              "weight": 36,
               "item": {
                 "id": "the_vault:bitter_lemon"
               }
             },
             {
-              "weight": 10,
+              "weight": 18,
               "item": {
                 "id": "the_vault:mango"
               }
             },
             {
-              "weight": 6,
+              "weight": 12,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -97,7 +97,7 @@
               }
             },
             {
-              "weight": 6,
+              "weight": 1,
               "item": {
                 "id": "the_vault:god_token",
                 "nbt": {
@@ -106,7 +106,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 1,
               "item": {
                 "id": "woldsvaults:god_offering",
                 "nbt": {
@@ -132,19 +132,19 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
+              "weight": 36,
               "item": {
                 "id": "the_vault:bitter_lemon"
               }
             },
             {
-              "weight": 10,
+              "weight": 18,
               "item": {
                 "id": "the_vault:mango"
               }
             },
             {
-              "weight": 6,
+              "weight": 12,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -156,7 +156,7 @@
               }
             },
             {
-              "weight": 16,
+              "weight": 1,
               "item": {
                 "id": "the_vault:god_token",
                 "nbt": {
@@ -165,7 +165,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 1,
               "item": {
                 "id": "woldsvaults:god_offering",
                 "nbt": {
@@ -191,19 +191,19 @@
           "weight": 1,
           "lootPool": [
             {
-              "weight": 18,
+              "weight": 36,
               "item": {
                 "id": "the_vault:bitter_lemon"
               }
             },
             {
-              "weight": 10,
+              "weight": 18,
               "item": {
                 "id": "the_vault:mango"
               }
             },
             {
-              "weight": 6,
+              "weight": 12,
               "item": {
                 "id": "the_vault:sour_orange"
               }
@@ -215,7 +215,7 @@
               }
             },
             {
-              "weight": 6,
+              "weight": 1,
               "item": {
                 "id": "the_vault:god_token",
                 "nbt": {
@@ -224,7 +224,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 1,
               "item": {
                 "id": "woldsvaults:god_offering",
                 "nbt": {
@@ -333,8 +333,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 4,
-                    "max": 8
+                    "min": 8,
+                    "max": 16
                   }
                 },
                 "renderer": {
@@ -353,8 +353,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 4,
-                    "max": 10
+                    "min": 16,
+                    "max": 32
                   }
                 },
                 "renderer": {
@@ -605,8 +605,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 4,
-                    "max": 8
+                    "min": 16,
+                    "max": 34
                   }
                 },
                 "renderer": {
@@ -857,8 +857,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 6,
-                    "max": 12
+                    "min": 24,
+                    "max": 42
                   }
                 },
                 "renderer": {
@@ -1109,8 +1109,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 6,
-                    "max": 10
+                    "min": 28,
+                    "max": 50
                   }
                 },
                 "renderer": {
@@ -1361,8 +1361,8 @@
                   "type": "target",
                   "target": {
                     "type": "uniform",
-                    "min": 8,
-                    "max": 12
+                    "min": 28,
+                    "max": 52
                   }
                 },
                 "renderer": {

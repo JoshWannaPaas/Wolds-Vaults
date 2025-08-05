@@ -14,8 +14,7 @@
             "the_vault:vault/rooms/challenge/factory1"
         ],
         "the_vault:gui/map/raid": [
-            "the_vault:vault/rooms/challenge/raid1",
-            "the_vault:vault/rooms/challenge/raid/rooms"
+            "the_vault:vault/rooms/challenge/raid1"
         ],
         "the_vault:gui/map/lab": [
             "the_vault:vault/rooms/challenge/laboratory1",
@@ -34,8 +33,7 @@
             "the_vault:vault/rooms/raw/chromatic_cave1"
         ],
         "the_vault:gui/map/emerald_caves": [
-            "the_vault:vault/rooms/raw/emerald_cave1",
-            "the_vault:vault/rooms/raw/emerald_caves"
+            "the_vault:vault/rooms/raw/emerald_cave1"
         ],
         "the_vault:gui/map/diamond_caves": [
             "the_vault:vault/rooms/raw/diamond_cave1"
@@ -71,8 +69,7 @@
             "the_vault:vault/rooms/omega/blacksmith1"
         ],
         "the_vault:gui/map/library": [
-            "the_vault:vault/rooms/omega/library1",
-            "the_vault:vault/rooms/omega/library2"
+            "the_vault:vault/rooms/omega/library1"
         ],
         "the_vault:gui/map/mushroom": [
             "the_vault:vault/rooms/omega/mush_room1",

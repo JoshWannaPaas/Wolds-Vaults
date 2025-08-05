@@ -44,7 +44,7 @@
           "output": [
             {
               "elements": {
-                "dungeons_mobs:leapleaf": 11
+                "grimoireofgaia:matango": 11
               },
               "weight": 1
             }
@@ -62,7 +62,7 @@
           "output": [
             {
               "elements": {
-                "dungeons_mobs:whisperer": 6,
+                "grimoireofgaia:toad": 3,
                 "woldsvaults:green_ghost": 9
               },
               "weight": 1
@@ -81,7 +81,7 @@
           "output": [
             {
               "elements": {
-                "dungeons_mobs:jungle_zombie": 20
+                "grimoireofgaia:mandragora": 20
               },
               "weight": 1
             }

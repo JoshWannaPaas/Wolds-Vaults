@@ -1756,7 +1756,7 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Junk Management",
-      "cost": 4,
+      "cost": 1,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/dank/helmet",

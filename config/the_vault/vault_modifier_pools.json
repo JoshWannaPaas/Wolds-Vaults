@@ -1409,10 +1409,6 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:corroded_veins",
-                "weight": 1
-              },
-              {
                 "value": "the_vault:daycare",
                 "weight": 1
               },
@@ -1510,14 +1506,6 @@
               },
               {
                 "value": "the_vault:frenzy",
-                "weight": 1
-              },
-              {
-                "value": "woldsvaults:witch_party",
-                "weight": 1
-              },
-               {
-                "value": "woldsvaults:ghost_party",
                 "weight": 1
               }
             ]
@@ -1627,22 +1615,6 @@
               },
               {
                 "value": "the_vault:critical_mobs",
-                "weight": 1
-              },
-              {
-                "value": "woldsvaults:fleet_footed_mobs",
-                "weight": 1
-              },
-              {
-                "value": "woldsvaults:phantasmal_mobs",
-                "weight": 1
-              },
-              {
-                "value": "woldsvaults:resistant_mobs",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:weakened_powers",
                 "weight": 1
               }
             ]
@@ -1960,10 +1932,6 @@
                 "weight": 1
               },
               {
-                "value": "the_vault:toxic",
-                "weight": 1
-              },
-              {
                 "value": "the_vault:wither",
                 "weight": 1
               },
@@ -1973,14 +1941,6 @@
               },
               {
                 "value": "the_vault:freezing",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:bleeding_mobs",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:voiding",
                 "weight": 1
               }
             ]
@@ -2027,95 +1987,6 @@
               },
               {
                 "value": "the_vault:wendarr_favour",
-                "weight": 1
-              }
-            ]
-          }
-        ]
-      }
-    ],
-     "the_vault:bingos_enchanted": [
-      {
-        "level": 0,
-        "entries": [
-          {
-            "min": 1,
-            "max": 1,
-            "pool": [
-              {
-                "value": "the_vault:safari_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:challenge_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:boinging_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:retro_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:surprise_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:enchanted_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:cursed_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:spooky_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:infernal_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:sweet_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:fungal_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:electrifying_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:freezing_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:burning_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:mini_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:big_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:bonus_bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:bingo",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:bingos",
                 "weight": 1
               }
             ]
@@ -2173,18 +2044,6 @@
               },
               {
                 "value": "the_vault:fortuitous",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:ultimate_regeneration",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:opulent_ores",
-                "weight": 1
-              },
-              {
-                "value": "the_vault:perfect_ores",
                 "weight": 1
               }
             ]

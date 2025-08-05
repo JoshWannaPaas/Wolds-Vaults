@@ -94,7 +94,7 @@
 	soap = true
 	bubble_blower = true
 	antique_ink = true
-	shulker_shell = false
+	shulker_shell = true
 	candy = true
 	wrench = true
 	slingshot = true

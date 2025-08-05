@@ -169,7 +169,7 @@
           "weight": 2,
           "pool": [
             {
-              "weight": 6,
+              "weight": 4,
               "item": {
                 "id": "the_vault:wooden_chest_scroll",
                 "count": {
@@ -191,7 +191,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 5,
               "item": {
                 "id": "the_vault:augment_box",
                 "count": {

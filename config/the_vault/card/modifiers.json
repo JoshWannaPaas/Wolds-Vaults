@@ -2417,7 +2417,7 @@
       "name": {
         "text": "Warp Card"
       },
-      "model": "the_vault:card/icon/dash_warp#inventory",
+      "model": "the_vault:card/icon/dash#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2457,7 +2457,7 @@
       "name": {
         "text": "Dash Card"
       },
-      "model": "the_vault:card/icon/dash#inventory",
+      "model": "the_vault:card/icon/dash_warp#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -5523,7 +5523,7 @@
     "wild_blue_red": {
       "type": "dummy",
       "name": {
-        "text": "Blue/Red Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5542,7 +5542,7 @@
     "wild_blue_green": {
       "type": "dummy",
       "name": {
-        "text": "Blue/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5561,7 +5561,7 @@
     "wild_blue_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Blue/Yellow Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5580,7 +5580,7 @@
     "wild_blue_yellow_red": {
       "type": "dummy",
       "name": {
-        "text": "Blue/Yellow/Red Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5600,7 +5600,7 @@
     "wild_blue_yellow_green": {
       "type": "dummy",
       "name": {
-        "text": "Blue/Yellow/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "BLUE",
@@ -5620,7 +5620,7 @@
     "wild_red_yellow_green": {
       "type": "dummy",
       "name": {
-        "text": "Red/Yellow/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "RED",
@@ -5640,7 +5640,7 @@
     "wild_blue_green_red": {
       "type": "dummy",
       "name": {
-        "text": "Red/Blue/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "RED",
@@ -5660,7 +5660,7 @@
     "wild_green_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Yellow/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "YELLOW",
@@ -5679,7 +5679,7 @@
     "wild_green_red": {
       "type": "dummy",
       "name": {
-        "text": "Red/Green Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "RED",
@@ -5698,7 +5698,7 @@
     "wild_red_yellow": {
       "type": "dummy",
       "name": {
-        "text": "Red/Yellow Wild Card"
+        "text": "Blue Wild Card"
       },
       "colors": [
         "RED",

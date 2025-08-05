@@ -94,7 +94,7 @@
               }
             },
             {
-              "weight": 7,
+              "weight": 5,
               "item": {
                 "id": "the_vault:shield",
                 "nbt": {

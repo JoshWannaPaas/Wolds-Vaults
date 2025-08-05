@@ -124,14 +124,6 @@
             "weight": 20
           },
           {
-            "value": "the_vault:skaia_vault_prismatic_umbra",
-            "weight": 20
-          },
-          {
-            "value": "the_vault:skaia_vault_prismatic_lumen",
-            "weight": 20
-          },
-          {
             "value": "the_vault:classic_vault_tropical",
             "weight": 14
           },
@@ -290,14 +282,6 @@
         "pool": [
           {
             "value": "the_vault:skaia_vault_autumn_cherry_grove",
-            "weight": 20
-          },
-          {
-            "value": "the_vault:skaia_vault_prismatic_umbra",
-            "weight": 20
-          },
-          {
-            "value": "the_vault:skaia_vault_prismatic_lumen",
             "weight": 20
           },
           {
@@ -810,21 +794,6 @@
           },
           {
             "value": "the_vault:raid_vault_infinite_easter",
-            "weight": 1
-          }
-        ]
-      }
-    ],
-    "the_vault:infinite_raid_hard": [
-      {
-        "level": 0,
-        "pool": [
-          {
-            "value": "the_vault:raid_vault_infinite_orcish_hard",
-            "weight": 1
-          },
-          {
-            "value": "the_vault:raid_vault_infinite_easter_hard",
             "weight": 1
           }
         ]
@@ -1721,20 +1690,6 @@
     }
   ],
   "OBJECTIVES": {
-     "the_vault:enchanted_elixir": [
-      {
-        "level": 0,
-        "pool": [
-          {
-            "value": {
-              "type": "enchanted_elixir",
-              "objective_probability": 0.6
-            },
-            "weight": 4
-          }
-        ]
-      }
-    ],
     "the_vault:zealot": [
       {
         "level": 0,
@@ -1760,7 +1715,6 @@
           {
             "value": {
               "type": "monolith",
-              "objective_probability": 0.75,
               "target": {
                 "type": "uniform",
                 "min": 6,
@@ -1872,7 +1826,6 @@
           {
             "value": {
               "type": "haunted_braziers",
-              "objective_probability": 0.75,
               "target": {
                 "type": "uniform",
                 "min": 3,

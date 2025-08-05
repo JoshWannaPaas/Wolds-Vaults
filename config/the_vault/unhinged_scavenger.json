@@ -290,7 +290,6 @@
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
             "the_vault:t3_drowned",
-            "dungeons_mobs:drowned_necromancer",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -311,7 +310,6 @@
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
             "the_vault:t3_drowned",
-            "dungeons_mobs:drowned_necromancer",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -332,7 +330,6 @@
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
             "the_vault:t3_drowned",
-            "dungeons_mobs:drowned_necromancer",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -353,7 +350,6 @@
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
             "the_vault:t3_drowned",
-            "dungeons_mobs:drowned_necromancer",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -374,7 +370,6 @@
             "the_vault:t1_drowned",
             "the_vault:t2_drowned",
             "the_vault:t3_drowned",
-            "dungeons_mobs:drowned_necromancer",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -420,10 +415,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_hide": {
@@ -460,10 +452,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_arm": {
@@ -500,10 +489,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_nose": {
@@ -540,10 +526,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_ear": {
@@ -580,10 +563,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_brain": {
@@ -620,10 +600,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_zombie_eye": {
@@ -660,10 +637,7 @@
             "the_vault:crystal_arbalist_guardian",
             "the_vault:butcher_bruiser_guardian",
             "the_vault:butcher_arbalist_guardian",
-            "the_vault:elite_zombie",
-            "dungeons_mobs:frozen_zombie",
-            "dungeons_mobs:jungle_zombie",
-            "dungeons_mobs:armored_zombie"
+            "the_vault:elite_zombie"
           ]
         },
         "the_vault:scavenger_creeper_vial": {
@@ -675,7 +649,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -695,7 +668,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -715,7 +687,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -735,7 +706,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -755,7 +725,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -775,7 +744,6 @@
             "the_vault:t1_creeper",
             "the_vault:t2_creeper",
             "the_vault:t3_creeper",
-            "dungeons_mobs:icy_creeper",
             "the_vault:bruiser_guardian",
             "the_vault:arbalist_guardian",
             "the_vault:pirate_bruiser_guardian",
@@ -791,10 +759,6 @@
           "multiplier": 1.0,
           "color": 5353215,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -829,10 +793,6 @@
           "multiplier": 0.6,
           "color": 5353215,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -883,10 +843,6 @@
           "multiplier": 0.6,
           "color": 16771072,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -937,10 +893,6 @@
           "multiplier": 0.6,
           "color": 16771072,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -991,10 +943,6 @@
           "multiplier": 0.6,
           "color": 16711935,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -1045,10 +993,6 @@
           "multiplier": 0.6,
           "color": 16711935,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",
@@ -1099,10 +1043,6 @@
           "multiplier": 0.6,
           "color": 7012096,
           "mobs": [
-            "dungeons_mobs:sunken_skeleton",
-            "dungeons_mobs:necromancer",
-            "dungeons_mobs:mossy_skeleton",
-            "dungeons_mobs:armored_skeleton",
             "minecraft:skeleton",
             "the_vault:t1_skeleton",
             "the_vault:t2_skeleton",

@@ -176,8 +176,7 @@
               "elements": {
                 "minecraft:stray": 6,
                 "minecraft:polar_bear": 3,
-                "the_vault:t1_stray": 6,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t1_stray": 6
               },
               "weight": 1
             }
@@ -192,8 +191,7 @@
               "elements": {
                 "minecraft:stray": 1,
                 "minecraft:polar_bear": 2,
-                "the_vault:t1_stray": 8,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t1_stray": 8
               },
               "weight": 1
             }
@@ -207,8 +205,7 @@
             {
               "elements": {
                 "the_vault:t1_stray": 9,
-                "the_vault:t2_stray": 4,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 4
               },
               "weight": 1
             }
@@ -222,8 +219,7 @@
             {
               "elements": {
                 "the_vault:t1_stray": 6,
-                "the_vault:t2_stray": 6,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 6
               },
               "weight": 1
             }
@@ -237,8 +233,7 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 10,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 10
               },
               "weight": 1
             }
@@ -252,8 +247,7 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 9,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 9
               },
               "weight": 1
             }
@@ -267,8 +261,7 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 8,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 8
               },
               "weight": 1
             }
@@ -282,8 +275,7 @@
             {
               "elements": {
                 "the_vault:t3_stray": 2,
-                "the_vault:t2_stray": 7,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 7
               },
               "weight": 1
             }
@@ -297,8 +289,7 @@
             {
               "elements": {
                 "the_vault:t3_stray": 6,
-                "the_vault:t2_stray": 12,
-                "dungeons_mobs:icy_creeper": 4
+                "the_vault:t2_stray": 12
               },
               "weight": 1
             }

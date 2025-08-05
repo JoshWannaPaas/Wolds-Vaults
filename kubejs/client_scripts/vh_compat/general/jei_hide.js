@@ -97,7 +97,6 @@ onEvent('jei.hide.items', event => {
     event.hide(/quark:.*_sign/)
     event.hide(/tropicraft:.*_sign/)
     event.hide(/twigs:.*_sign/)
-    event.hide(/dungeons_mobs:.*/)
 })
 
 

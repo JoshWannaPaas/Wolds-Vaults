@@ -62,7 +62,8 @@
           "output": [
             {
               "elements": {
-                "the_vault:drowned_necromancer": 10
+                "grimoireofgaia:siren": 4,
+                "grimoireofgaia:cecaelia": 4
               },
               "weight": 1
             }
@@ -80,7 +81,8 @@
           "output": [
             {
               "elements": {
-                "dungeons_mobs:sunken_skeleton": 20
+                "grimoireofgaia:mermaid": 20,
+                "the_vault:t3_drowned": 5
               },
               "weight": 1
             }

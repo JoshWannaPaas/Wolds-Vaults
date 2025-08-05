@@ -157,22 +157,6 @@
           }
         ]
       },
-       {
-        "attribute": "the_vault:living",
-        "group": "BaseLiving",
-        "identifier": "the_vault:u_living",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "flag": true
-            }
-          }
-        ]
-      },
       {
         "attribute": "the_vault:durability",
         "group": "BaseDurability",
@@ -2297,23 +2281,6 @@
       }
     ],
     "PREFIX": [
-       {
-        "attribute": "the_vault:added_talent_level",
-        "group": "ModTalent",
-        "identifier": "the_vault:u_all_talents",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 75,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "levelChange": 1,
-              "talentKey": "all_talents"
-            }
-          }
-        ]
-      },
       { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
@@ -2724,8 +2691,8 @@
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.03,
-              "max": 0.05,
+              "min": 0.18,
+              "max": 0.24,
               "step": 0.01
             }
           },
@@ -2734,8 +2701,8 @@
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 0.06,
-              "max": 0.1,
+              "min": 0.25,
+              "max": 0.35,
               "step": 0.01
             }
           }

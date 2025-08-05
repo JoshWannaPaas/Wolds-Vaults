@@ -628,6 +628,17 @@
         ]
       }
     ],
+"the_vault:base_greed": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "woldsvaults:map_themes": [
       {
         "level": 0,
@@ -1795,6 +1806,68 @@
         ]
       }
     ],
+    "the_vault:alchemy": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 1.0,
+              "required_progress": 1.0
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "pool": [
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.80,
+              "required_progress": 1.5
+            }
+          }
+        ]
+      },
+      {
+        "level": 50,
+        "pool": [
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.60,
+              "required_progress": 2.0
+            }
+          }
+        ]
+      },
+      {
+        "level": 65,
+        "pool": [
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.40,
+              "required_progress": 2.5
+            }
+          }
+        ]
+      },
+      {
+        "level": 80,
+        "pool": [
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.30,
+              "required_progress": 3.0
+            }
+          }
+        ]
+      }
+    ],
     "the_vault:rune_boss": [
       {
         "level": 0,
@@ -2193,6 +2266,14 @@
               "objective_probability": 1.0
             },
             "weight": 2
+          },
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.4,
+              "required_progress": 2.0
+            },
+            "weight": 1
           }
         ]
       },
@@ -2248,6 +2329,14 @@
               "objective_probability": 1.0
             },
             "weight": 2
+          },
+          {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.3,
+              "required_progress": 2.5
+            },
+            "weight": 1
           }
         ]
       }
@@ -2256,6 +2345,23 @@
       {
         "level": 0,
         "pool": [
+           {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 4,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 6,
+                "max": 8
+              }
+            },
+            "weight": 2
+          },
           {
             "value": {
               "type": "boss",
@@ -2355,6 +2461,95 @@
               "objective_probability": 1.0
             },
             "weight": 2
+          },
+           {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.2,
+              "required_progress": 3.0
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+  "the_vault:royale": [
+      {
+        "level": 0,
+        "pool": [
+           {
+            "value": {
+              "type": "alchemy",
+              "objective_probability": 0.3
+            },
+            "weight": 0
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 0
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 0.75
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 0.3
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+ "the_vault:pvp": [
+      {
+        "level": 0,
+        "pool": [
+
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 0.75
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 0.3
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 4
           }
         ]
       }
@@ -2640,6 +2835,52 @@
         "theme": {
           "type": "value",
           "id": "the_vault:vault_lost_depths"
+        }
+      }
+    ],
+    "woldsvaults:crystal_seal_alchemy": [
+      {
+        "level": 0,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "alchemy",
+          "objective_probability": 1.0,
+          "required_progress": 1.0
+        }
+      },
+      {
+        "level": 20,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "alchemy",
+          "objective_probability": 0.80,
+          "required_progress": 1.5
+        }
+      },
+      {
+        "level": 50,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "alchemy",
+          "objective_probability": 0.60,
+          "required_progress": 2.0
+        }
+      },
+      {
+        "level": 80,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "alchemy",
+          "objective_probability": 0.40,
+          "required_progress": 2.5
         }
       }
     ],
@@ -3191,6 +3432,30 @@
         }
       }
     ],
+  "the_vault:crystal_seal_vault_royale": [
+      {
+        "level": 0,
+        "exhausted": true,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "royale",
+          "objective_probability": 1.0,
+          "start_crate_loot_table": "the_vault:royale_start_crate"
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:royale",
+              "count": 1
+            }
+          ],
+          "random_modifiers": false
+        }
+      }
+    ],
     "the_vault:crystal_seal_scout": [
       {
         "level": 0,
@@ -3487,60 +3752,6 @@
             }
           ],
           "random_modifiers": false
-        }
-      }
-    ],
-    "the_vault:crystal_seal_ordinator_build": [
-      {
-        "level": 40,
-        "exhausted": true,
-        "input": [
-          "the_vault:vault_crystal"
-        ],
-        "objective": {
-          "type": "paradox",
-          "goal": "BUILD"
-        },
-        "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 108000
-          }
-        }
-      }
-    ],
-    "the_vault:crystal_seal_ordinator_run": [
-      {
-        "level": 40,
-        "exhausted": true,
-        "input": [
-          "the_vault:vault_crystal"
-        ],
-        "objective": {
-          "type": "paradox",
-          "goal": "RUN"
-        },
-        "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 12000
-          }
         }
       }
     ],

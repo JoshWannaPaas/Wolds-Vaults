@@ -175,6 +175,23 @@
         ]
       },
       {
+        "attribute": "the_vault:thorns_damage_flat",
+        "group": "BaseBonusPool",
+        "identifier": "the_vault:base_thorns_damage_flat",
+        "tiers": [
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 40.0,
+              "max": 60.0,
+              "step": 0.5
+            }
+          }
+        ]
+      },
+      {
         "attribute": "the_vault:soul_leech_flat",
         "group": "BaseBonusPool",
         "identifier": "the_vault:base_soul_leech",
@@ -973,53 +990,6 @@
             "weight": 40,
             "value": {
               "abilityKey": "Vein_Miner_Chain",
-              "levelChange": 5
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAbility",
-        "identifier": "the_vault:mod_added_ability_level_veinminervoid",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerVeinMiner"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 8,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
-              "levelChange": 4
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 40,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
               "levelChange": 5
             }
           }
@@ -3046,6 +3016,420 @@
           }
         ]
       },
+        { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_implode_life_tap",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityImplodeLifeTap"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Implode_Life_Tap",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Implode_Life_Tap",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Implode_Life_Tap",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Implode_Life_Tap",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_earthquake",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityEarthquake"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Earthquake_Base",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Earthquake_Base",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Earthquake_Base",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Earthquake_Base",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_landmine",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityLandmine"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Earthquake_Landmine",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Earthquake_Landmine",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Earthquake_Landmine",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Earthquake_Landmine",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_grenade_chaos",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityGrenadeChaos"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Grenade_Base",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Grenade_Base",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Grenade_Base",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Grenade_Base",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_grenade_toxic",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerGrenadeToxic"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Toxic_Grenade",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Toxic_Grenade",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Toxic_Grenade",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Toxic_Grenade",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_arcane",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerArcane"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Arcane_Base",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Arcane_Base",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Arcane_Base",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Arcane_Base",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_arcane_rail",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerArcaneRail"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Arcane_Rail",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Arcane_Rail",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Arcane_Rail",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Arcane_Rail",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_lightning_strike",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerLightningStrike"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Chain_Lightning_Base",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Chain_Lightning_Base",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Chain_Lightning_Base",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Chain_Lightning_Base",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAbility",
+        "identifier": "the_vault:mod_added_ability_level_lightning_orbs",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerLightningOrbs"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Chain_Lightning_Orbs",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 8,
+            "value": {
+              "abilityKey": "Chain_Lightning_Orbs",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Chain_Lightning_Orbs",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "abilityKey": "Chain_Lightning_Orbs",
+              "levelChange": 5
+            }
+          }
+        ]
+      },
       {
         "attribute": "the_vault:effect_list_avoidance",
         "group": "ModEffectAvoidance",
@@ -4754,26 +5138,6 @@
             "weight": 60,
             "value": {
               "abilityKey": "Vein_Miner_Chain",
-              "levelChange": 2
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModLvlUtility",
-        "identifier": "the_vault:corrupted_added_ability_level_veinminervoid",
-        "tags": [
-          "focusAbilityPower",
-          "focusAbilityPowerVeinMiner"
-        ],
-        "tiers": [
-          {
-            "minLevel": 25,
-            "maxLevel": -1,
-            "weight": 60,
-            "value": {
-              "abilityKey": "Vein_Miner_Void",
               "levelChange": 2
             }
           }
